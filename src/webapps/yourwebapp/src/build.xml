@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<project name="YourWebApp" default="prepare" basedir=".">
+
+	<target name="init">
+		<echo message="BEGIN Init Variables" />
+		<property name="name" value="yourwebapp" />
+		<property name="src.dir" value="com" />
+		<property name="build.dir" value="build" />
+		<property name="release.dir" value="release" />
+		<property name="classes.dir" value="${build.dir}/classes" />
+		<property name="deploy.name" value="${name}.jar" />
+		<property name="cp.dir" value="../../../Server/addon/" />
+		<property name="classpath.dir" value=".;${cp.dir}servlet-api.jar;${cp.dir}mailapi.jar;${cp.dir}activation.jar;" />
+		<echo message="DONE Init Variables" />
+	</target>
+	
+	<target name="prepare" depends="init">
+		<echo message="BEGIN Prepare" />
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${release.dir}" />
+		<mkdir dir="${classes.dir}" />
+		<echo message="DONE Prepare" />
+	</target>
+	
+	<target name="compile" depends="prepare">
+		<echo message="---------------------------------------" />
+		<echo message="BEGIN Compile" />
+		<echo message="---------------------------------------" />
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" debug="true" deprecation="true" optimize="false" classpath="${classpath.dir}/"/>
+		<echo message="---------------------------------------" />
+		<echo message="DONE Compile" />
+		<echo message="---------------------------------------" />
+	</target>
+	
+	<target name="jarfile" depends="compile">
+		<echo message="---------------------------------------" />
+		<echo message="BEGIN Jar" />
+		<echo message="---------------------------------------" />
+		<jar destfile="${release.dir}/${deploy.name}" basedir="${classes.dir}"/>
+		<echo message="---------------------------------------" />
+		<echo message="DONE Jar" />
+		<echo message="---------------------------------------" />
+	</target>
+	
+</project>

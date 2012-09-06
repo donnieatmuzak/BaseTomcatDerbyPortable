@@ -1,0 +1,52 @@
+Sep 06, 2012 6:02:17 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Programs\JAVA\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\program files (x86)\ati stream\bin\x86_64;c:\program files (x86)\ati stream\bin\x86;c:\program files\broadcom\broadcom 802.11;c:\program files (x86)\common files\avaya modular messaging;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;C:\Program Files (x86)\Avaya Modular Messaging\Common;c:\program files (x86)\avaya modular messaging\common;c:\program files (x86)\ati technologies\ati.ace\core-static;c:\program files (x86)\quicktime\qtsystem\;c:\program files (x86)\microsoft sql server\90\tools\binn\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\;c:\program files (x86)\microsoft sql server\100\tools\binn\;c:\program files\microsoft sql server\100\tools\binn\;c:\program files\microsoft sql server\100\dts\binn\;c:\program files (x86)\microsoft sql server\100\tools\binn\vsshell\common7\ide\;c:\program files (x86)\microsoft visual studio 9.0\common7\ide\privateassemblies\;c:\program files (x86)\microsoft sql server\100\dts\binn\;c:\program files (x86)\microsoft asp.net\asp.net web pages\v1.0\;c:\program files (x86)\mysql\mysql server 5.5\bin;c:\programs\ant\bin;c:\program files\microsoft windows performance toolkit\;c:\program files (x86)\gtksharp\2.12\bin;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;.
+Sep 06, 2012 6:02:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:02:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 838 ms
+Sep 06, 2012 6:02:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 06, 2012 6:02:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.29
+Sep 06, 2012 6:02:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Projects\JAVA\BaseTomcatWithDB\src\webapps\root
+Sep 06, 2012 6:02:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:02:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2366 ms
+Sep 06, 2012 6:04:42 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 06, 2012 6:04:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:04:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 06, 2012 6:04:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:04:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:05:20 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Programs\JAVA\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\program files (x86)\ati stream\bin\x86_64;c:\program files (x86)\ati stream\bin\x86;c:\program files\broadcom\broadcom 802.11;c:\program files (x86)\common files\avaya modular messaging;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Windows\system32\windowspowershell\v1.0\;C:\Program Files (x86)\Avaya Modular Messaging\Common;c:\program files (x86)\avaya modular messaging\common;c:\program files (x86)\ati technologies\ati.ace\core-static;c:\program files (x86)\quicktime\qtsystem\;c:\program files (x86)\microsoft sql server\90\tools\binn\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\;c:\program files (x86)\microsoft sql server\100\tools\binn\;c:\program files\microsoft sql server\100\tools\binn\;c:\program files\microsoft sql server\100\dts\binn\;c:\program files (x86)\microsoft sql server\100\tools\binn\vsshell\common7\ide\;c:\program files (x86)\microsoft visual studio 9.0\common7\ide\privateassemblies\;c:\program files (x86)\microsoft sql server\100\dts\binn\;c:\program files (x86)\microsoft asp.net\asp.net web pages\v1.0\;c:\program files (x86)\mysql\mysql server 5.5\bin;c:\programs\ant\bin;c:\program files\microsoft windows performance toolkit\;c:\program files (x86)\gtksharp\2.12\bin;c:\program files (x86)\ibm\gsk8\lib;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;.
+Sep 06, 2012 6:05:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:05:21 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 776 ms
+Sep 06, 2012 6:05:21 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 06, 2012 6:05:21 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.29
+Sep 06, 2012 6:05:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Projects\JAVA\BaseTomcatWithDB\src\webapps\root
+Sep 06, 2012 6:05:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:05:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2266 ms
+Sep 06, 2012 6:09:19 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 06, 2012 6:09:19 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:09:19 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 06, 2012 6:09:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8081"]
+Sep 06, 2012 6:09:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8081"]

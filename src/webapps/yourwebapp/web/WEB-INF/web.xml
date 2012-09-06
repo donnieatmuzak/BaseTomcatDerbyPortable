@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>YourWebApp</display-name>
+    <description>YourWebApp</description>
+
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/yourdata</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+    <context-param>
+        <param-name>DBCTX</param-name>
+        <param-value>java:comp/env/jdbc/yourdata</param-value>
+    </context-param>
+    
+   
+   
+    <context-param>
+        <param-name>Major_Version</param-name>
+        <param-value>1</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Minor_Version</param-name>
+        <param-value>00</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Build_Version</param-name>
+        <param-value>01</param-value>
+    </context-param>
+
+    
+    
+    <context-param>
+        <param-name>ImagesCommon</param-name>
+        <param-value>/common/images/</param-value>
+    </context-param>
+	
+		<context-param>
+        <param-name>RootPath</param-name>
+        <param-value>/yourwebapp/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>RootAccessPath</param-name>
+        <param-value>/yourwebapp/access/</param-value>
+    </context-param>
+    
+	
+  
+    
+    
+    
+    <!-- ********************************************** -->
+    <!--        Filters                                 -->
+    <!-- ********************************************** -->
+    <filter>
+        <filter-name>AuditUserLogin</filter-name>
+        <filter-class>com.yourwebapp.AuditUserLogin</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuditUserLogin</filter-name>
+        <url-pattern>/access/*</url-pattern>
+    </filter-mapping>
+    <!-- ********************************************** -->
+    <!-- ********************************************** -->
+    
+    
+    
+    
+    
+    
+    <servlet>
+        <servlet-name>SignIn</servlet-name>
+        <servlet-class>com.yourwebapp.SignIn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignIn</servlet-name>
+        <url-pattern>/exe/SignIn/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SignOut</servlet-name>
+        <servlet-class>com.yourwebapp.SignOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignOut</servlet-name>
+        <url-pattern>/exe/SignOut/</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
